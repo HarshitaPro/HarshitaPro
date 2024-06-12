@@ -12,12 +12,12 @@ public class Shape {
 		return 0.5 *base*height; 
 	}
 	public static void main(String[] args) {
-		Shape rectangle = new Shape();
-		System.out.println("Area of rectangle="+rectangle.CalculateArea(12,23));
-		Shape circle= new Shape();
-		System.out.println("Area of circle="+circle.CalculateArea(2.0));
-		Shape triangle = new Shape();
-		System.out.println("Area of Triangle="+triangle.CalculateArea(1.0,2.0));
+		Shape r = new Shape();
+		System.out.println("Area of rectangle="+r.CalculateArea(12,23));
+		
+		System.out.println("Area of circle="+r.CalculateArea(2.0));
+		
+		System.out.println("Area of Triangle="+r.CalculateArea(1.0,2.0));
 	}
 	
 
