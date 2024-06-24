@@ -22,7 +22,13 @@ public class ArrayQue {
 	System.out.println("number of 0's="+count0);
 	System.out.println("number of 1's="+count1);
 	System.out.println("number of 2's="+count2);
+	
+	int arr1[][]= {{3} ,{2}};
+	System.out.println(arr1.length);
+	System.out.println(arr1[0].length);
 
 	}
+	
+	
 
 }
