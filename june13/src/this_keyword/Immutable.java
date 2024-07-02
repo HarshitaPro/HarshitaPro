@@ -12,7 +12,7 @@ public  final class Immutable {
 		Immutable i = new Immutable("harshita");
 		System.out.println(i.name);
 		//try to set value of final variable
-		i.name="nikhil";//compile time error
+		//i.name="nikhil";//compile time error
 				
 	}
 

@@ -1,20 +1,33 @@
 package this_keyword;
 
-public class Test extends FinalVariable{
+public class Test {
 	
-	Test(){
-		super("NRI");
+	public boolean Isvalid(String s) {
+		while(true) {
+		if(s.contains("()")) {
+		s=s.replace("()", "");
+		}
+		else if(s.contains("{}")) {
+			s=s.replace("{}", "");
+		}
+		else if(s.contains("[]")) {
+			s=s.replace("[]", "");
+		}
+		else {
+			return s.isEmpty();
+		}
+			
+	
 	}
-
-	@Override
-	public double CalculateArea()
-	{
-		
 	}
+	
 	public static void main(String[] args) {
 		
-		// TODO Auto-generated method stub
-
+			Test t = new Test();
+			System.out.println(t.Isvalid("{}{"));
+		//	t.Isvalid("{}{");
+		
+		
 	}
 
 }
