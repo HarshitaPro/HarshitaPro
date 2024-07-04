@@ -11,6 +11,7 @@ public class Demo  {
 
 	}catch(CustomException e) {
 		e.printStackTrace();
+		
 	}
 catch (TooMuchMoneyException e) {
 			

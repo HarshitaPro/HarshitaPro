@@ -9,8 +9,11 @@ public class ArrayOutOfBoundsExample {
 			System.out.println(arr[i]);//exception
 		}
 		}catch(ArrayIndexOutOfBoundsException e) {
-			System.out.println(e.getMessage());
+		System.exit(0);
 			
+		}
+		finally {
+			System.out.println("always executed");//here finally block is not executed
 		}
 		
 		
