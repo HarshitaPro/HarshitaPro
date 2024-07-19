@@ -6,7 +6,7 @@ public class Person {
 	
 	public Person(int age) throws InvalidAgeException{
 		if(age<18) {
-			throw  new InvalidAgeException();
+			throw  new InvalidAgeException("you are not elligible");
 		}
 		
 		else {

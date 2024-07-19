@@ -10,6 +10,18 @@ public class Address {
 	public String toString() {
 		return "Address [city=" + city + ", state=" + state + ", pincode=" + pincode + "]";
 	}
+	
+	
+	public Address() {}
+	
+	public Address(String city, String state, int pincode) {
+		super();
+		this.city = city;
+		this.state = state;
+		this.pincode = pincode;
+	}
+
+
 	public String getCity() {
 		return city;
 	}

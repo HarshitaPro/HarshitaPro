@@ -12,9 +12,9 @@ public class Student {
 	 private void rollno() {
 		System.out.println("you have got your rollno");
 	}
-	 public void roll()
+	 public   void roll()
 	 {
-		 this.rollno();
+		 this.name = "harshita";
 	 }
 
 }
