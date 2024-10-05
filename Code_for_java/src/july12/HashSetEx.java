@@ -42,6 +42,8 @@ public static void main(String[] args) {
 	ts.add("harshita");
 	ts.add("harshita");
 	ts.add("a");
+	int [] arr = {1};
+	
 	System.out.println(ts);
 
 	
