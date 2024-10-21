@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+
 <!DOCTYPE hibernate-configuration PUBLIC
 	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
 	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
-
 	
 	<hibernate-configuration>
 	
@@ -14,14 +14,21 @@
           <property name ="connection.username">root</property>
             <property name ="connection.password">Harshita@123</property>
               <property name ="dilect">org.hibernate.dilect.MySQL5Dilect</property>
-                <property name ="hbm2ddl.auto">update</property>
+                <property name ="hbm2ddl.auto">create</property>
                  <property name ="show_sql">true</property>
-                <mapping class= "embedable_Annotation.Employee"></mapping>
+                <mapping class= " project.Hibernate_mapping.Question"></mapping>
+                <mapping class =" project.Hibernate_mapping.Answer"></mapping>
+	
 	
 	
 	
 	
 	</session-factory>
+	
+	
+	
+	
+	
 	
 	
 	
